@@ -1,0 +1,51 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "models/meteor",
+		"particle": "models/meteor"
+	},
+	"elements": [
+		{
+			"from": [-3, 0, -3],
+			"to": [19, 22, 19],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [-5.5, 0, 0]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-5.5, 0, 0]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 1.75, 1.25],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 1.75, 1.25],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 10, 0]
+		},
+		"gui": {
+			"rotation": [30.04, 38.12, -9.79],
+			"translation": [1.5, -2.5, 0]
+		},
+		"head": {
+			"scale": [1.51172, 1.51172, 1.51172]
+		},
+		"fixed": {
+			"translation": [0, -3, 8.5],
+			"scale": [4, 4, 4]
+		}
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/white_dye"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 1
+			},
+			"model": "minecraft:item/test/head_bone"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 2
+			},
+			"model": "minecraft:item/test/left_arm_bone"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 3
+			},
+			"model": "minecraft:item/test/right_arm_bone"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4
+			},
+			"model": "minecraft:item/test/body_bone"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 5
+			},
+			"model": "minecraft:item/test/left_leg_bone"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 6
+			},
+			"model": "minecraft:item/test/right_leg_bone"
+		}
+	],
+	"aj": {
+		"includedRigs": {
+			"2fbb4231-446a-7317-f3de-e955ec028acf": {
+				"name": "test_an_java",
+				"usedIDs": [
+					[1, 6]
+				]
+			}
+		}
+	}
+}
